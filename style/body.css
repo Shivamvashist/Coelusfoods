@@ -8,6 +8,7 @@
     
     align-items: center;
     
+    color: #fff;
     
     width: 100%;
     padding-left:36px ;
@@ -21,9 +22,7 @@
     margin-bottom: 16px;
     margin-top: 148px;
 }
-.subHead{
-    
-}
+
 
 .body1-img{
     filter: brightness(1) invert(0);
