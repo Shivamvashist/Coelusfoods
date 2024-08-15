@@ -1,17 +1,32 @@
 .body1{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     
+}
+.dry-img{
+    width: 50%;
+    max-width: 500px;
+    margin: 0;
+
+}
+.body1-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    min-width: 100px;
 }
 
 .body1-para{
     display: flex;
     
     align-items: center;
-    
+    justify-content: center;
     color: #fff;
     
-    width: 100%;
+    
     padding-left:36px ;
     flex-direction: column;
 }
@@ -21,17 +36,58 @@
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 16px;
-    margin-top: 148px;
+    
 }
 
-
-.body1-img{
-    filter: brightness(1) invert(0);
-    background-blend-mode: multiply;
-}
-
-.body1-subhead{
+.body1-subHead{
+    margin-top: 15px;
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
-
+    max-width: 550px;
 }
 
+
+/* products section */
+
+.product-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#BEC6A0;
+    border-radius:40px;
+    
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.temp-banner{
+    font-family: "Dancing Script", cursive;
+    font-size: 4.5rem;
+    font-weight: 700;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.1em solid #3C3D37; /* Cursor */
+    animation: typeAndDelete 8s steps(16) infinite , blinkCursor 0.3s step-end infinite alternate;
+}
+
+@keyframes blinkCursor {
+    50% {
+      border-right-color: transparent;
+    }
+  }
+  
+  @keyframes typeAndDelete {
+    0%,
+    5% {
+      width: 0px;
+    }
+    45%,
+    55% {
+      width: 9em;
+    } /* adjust width based on content */
+    90%,
+    100% {
+      width: 0;
+    }
+  }
