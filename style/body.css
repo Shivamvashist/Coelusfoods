@@ -1,6 +1,7 @@
 .body1{
     display: flex;
     flex-direction: row;
+    
 }
 
 .body1-para{
@@ -14,7 +15,7 @@
     padding-left:36px ;
     flex-direction: column;
 }
-.heading{
+.body1-heading{
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-size: 4rem;
@@ -28,3 +29,9 @@
     filter: brightness(1) invert(0);
     background-blend-mode: multiply;
 }
+
+.body1-subhead{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+

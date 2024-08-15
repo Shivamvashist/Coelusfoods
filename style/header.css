@@ -1,6 +1,7 @@
 
 body{
     background-color: #3C3D37;
+    margin: 0;
 }
 a {
     text-decoration: none; 
@@ -19,13 +20,10 @@ a {
     align-items: center;
     height: 100px;
 
-    border-bottom: 1px solid #b9b9b9;
 }
-.head-left{
-    
 
+.head-left{
     display: flex;
-    
 
     width: 15rem ;
     height: 100%;
