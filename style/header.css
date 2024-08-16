@@ -60,3 +60,14 @@ a {
     padding-left:4px;
     padding-right: 2px;
 }
+
+@media screen and (max-width: 600px){
+    .header{
+        flex-direction: column;
+    }
+    .head-right{
+        opacity: 0;
+        font-size: 0px;
+
+    }
+}
