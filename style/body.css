@@ -41,8 +41,11 @@
 
 .body1-subHead{
     margin-top: 15px;
-    font-size: 1.5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+    
     max-width: 550px;
 }
 
