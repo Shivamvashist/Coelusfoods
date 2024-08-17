@@ -19,9 +19,12 @@ body{
     left: 0px;
     right: 0px;
     color: white;
-    font-size: 50px;
+    
     line-height: 80px;
     padding: 0 40px;
+}
+.navLeft{
+    font-size: 50px;
 }
 .nav a{
     text-decoration: none; 
@@ -67,4 +70,14 @@ body{
     color: white;
     height: 50%;
     width: 100%;
+}
+
+
+@media screen and (max-width: 600px){
+    .navRight{
+        font-size: 0px;
+    }
+    .nav{
+        justify-content: center;
+    }
 }
