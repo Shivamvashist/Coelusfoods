@@ -80,4 +80,12 @@ body{
     .nav{
         justify-content: center;
     }
+    body{
+        font-family: "Rowdies", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 80px;
+        margin: 0;
+        padding:0;
+    }
 }
